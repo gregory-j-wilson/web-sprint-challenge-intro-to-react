@@ -1,8 +1,18 @@
 .App {
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 62.5%;
+  
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: black;
+  text-shadow: 0px 0px 7px #ffffff, 
+  0px 0px 12px #ffffff, 
+  0px 0px 12px #ffffff,
+  0px 0px 12px #ffffff, 
+  0px 0px 12px #ffffff,  
+  0px 0px 12px #ffffff;
+  font-size: 3rem;
+  font-style: italic;
 }
 /* write your parent styles in here for your App.js */
