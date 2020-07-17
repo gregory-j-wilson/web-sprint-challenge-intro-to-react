@@ -31,6 +31,15 @@ const App = () => {
     <div className="App">
       <h1 className="Header">Star Wars Characters</h1>
       <Character characters={characters[0]}/>
+      <Character characters={characters[1]}/>
+      <Character characters={characters[2]}/>
+      <Character characters={characters[3]}/>
+      <Character characters={characters[4]}/>
+      <Character characters={characters[5]}/>
+      <Character characters={characters[6]}/>
+      <Character characters={characters[7]}/>
+      <Character characters={characters[8]}/>
+      <Character characters={characters[9]}/>
     </div>
   );
 }

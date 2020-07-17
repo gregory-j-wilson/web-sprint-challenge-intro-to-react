@@ -9,19 +9,24 @@ const CharacterBox = styled.div`
     margin: 0 auto;
     text-align: left;
     padding: 10px;
+    margin-bottom: 20px;
 `;
 
-const CharacterText = styled.p`
-    font-size: 1.5rem;
-    color: white;
-`;
+
 
 const CharacterTitle = styled.p`
     font-size: 2rem;
     color: rgba(255, 255, 255, 0.6);
     font-style: italic;
     font-size: 2rem;
+    cursor: default;
 
+`;
+
+const CharacterText = styled.p`
+    font-size: 1.5rem;
+    color: white;
+    display: block;
 `;
 
 function Character (props) {
@@ -35,7 +40,10 @@ function Character (props) {
             <CharacterText>
                 Height: {characters.height}<br></br>
                 Birth-Year: {characters.birth_year}<br></br>
-                
+                Gender: {characters.gender}<br></br>
+                Skin Color: {characters.skin_color}<br></br>
+
+
             </CharacterText>
 
         </CharacterBox>
